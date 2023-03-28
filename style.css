@@ -1,0 +1,62 @@
+:root {
+    --ff-base: "Outfit", serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+html {
+    box-sizing: border-box;
+  }
+  body {
+  padding: 20px;	
+  max-width: 1440px;
+  }
+  .bd-background {
+  background-color: hsl(220, 15%, 55%);
+  width: 75%;
+  height: 80%;	
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  min-width: 375px;
+  }
+  .text-container {
+  background-color: hsl(0, 0%, 100%);	
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 20%;
+    height: 20%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    min-width: 170px;
+    min-height: 275px;
+    
+  
+  }
+  .qr-image img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    max-width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+      
+  }
+  
+  h1 {
+  color: hsl(218, 44%,22%);
+  font-size: 15px;
+  text-align: center;
+  font-family: var(--ff-base);
+  font-weight: var(--fw-bold);
+  margin-top: 20px;
+  }
+  p {
+    font-size: 10px;
+    text-align: center;
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+  }
